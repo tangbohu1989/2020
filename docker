@@ -1,0 +1,19 @@
+keywords:docker linux centos
+docker
+docker images
+dokcer image ls
+docker ps
+docker ps -a
+docker ps -l
+docker run -d centos:centos7 /bin/bash -c "while true;do sth..."
+docker run -it centos:centos7 /bin/bash -c "while true;do sth..."
+docker logs docker_id/name
+docker start
+docker restart
+docker stop
+docker attach docker_id/name
+docker exec -it docker_id /bin/bash
+docker rm -f docker_id/name
+docker export docker_id file.tar
+docker import file.tar image
+docker top docker_id/name
