@@ -1,0 +1,7 @@
+v.insert(v.begin()+4, a);   //在指定位置，例如在第五个元素前插入一个元素
+ 
+v.insert(v.end(), a);   //在末尾插入一个元素
+ 
+v.push_back(a);   //在末尾插入一个元素
+ 
+v.insert(v.begin(), a);   //在开头插入一个元素
